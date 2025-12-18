@@ -880,3 +880,22 @@ video {
     line-height: 1;
   }
 }
+.icon-link {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: color 0.2s ease;
+}
+
+.icon-link:hover {
+  color: #d1d5db; /* gray-300 */
+}
+
+.icon-link svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}

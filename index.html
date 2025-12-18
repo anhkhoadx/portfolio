@@ -76,7 +76,7 @@
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 pb-24 px-8" id="home">
 <!-- Video Background -->
 <div class="absolute inset-0 w-full h-full">
-<video aria-label="data flow particles" autoplay="" class="w-full h-full object-cover" loop="" muted="" playsinline="" poster="https://c.animaapp.com/mj9tist3JWpNvK/img/ai_1-poster.png" src="https://c.animaapp.com/mj9tist3JWpNvK/img/ai_1.mp4"></video>
+<video aria-label="data flow particles" autoplay="" class="w-full h-full object-cover" loop="" muted="" playsinline="" poster="./images/poster.png"></video>
 <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/0 to-black/80"></div>
 </div>
 <!-- Hero Content -->
@@ -100,10 +100,19 @@
 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
 </svg>
 </a>
-<a aria-label="Medium" class="text-white hover:text-gray-300 transition-colors" href="https://medium.com/@bingeek" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewbox="0 0 24 24">
-<path d="M6.5 6.5h11v11h-11z" opacity="0.25"></path>
-<path d="M7.8 8.2h1.9l2.6 6 2.6-6h1.9v7.6h-1.3V9.8l-2.6 6h-1.2l-2.6-6v6H7.8V8.2z"></path>
-</svg></a></div>
+<a aria-label="Medium"
+   class="icon-link"
+   href="https://medium.com/@bingeek"
+   target="_blank"
+   rel="noopener noreferrer">
+  <img
+    src="./images/medium.png"
+    alt="Medium"
+    class="icon-img"
+    style="max-width: 125%;"
+  />
+</a>
+</div>
 </div>
 <div class="bg-secondary/90 backdrop-blur-sm p-8 rounded border border-gray-700">
 <h3 class="font-headline font-semibold text-2xl mb-6 text-secondary-foreground">
@@ -125,7 +134,9 @@
 <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
 </svg><span>Apache Spark, AWS Glue, Athena</span></li><li class="flex items-start gap-3"><svg class="w-5 h-5 mt-1 text-success flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24">
 <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-</svg><span>Data quality, validation, monitoring, cost optimization</span></li></ul>
+</svg><span>Data quality, validation, monitoring, cost optimization</span></li>
+<li class="flex items-start gap-3"><svg class="w-5 h-5 mt-1 text-success flex-shrink-0" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg><span>System design, APIs, distributed systems, performance troubleshooting</span></li>
+</ul>
 </div>
 </div>
 </div>
@@ -170,6 +181,7 @@
 </div>
 <div>
 <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Company-wide Data Platform &amp; Single Source of Truth</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Platform ownership, system design, cross-team alignment</p>
 <p class="text-gray-600 mb-6 leading-relaxed">Designed and owned a company-wide analytics and data platform that unified product, marketing, and finance data into a trusted foundation. Established standardized metrics and reporting workflows to accelerate decision-making across teams.</p>
 <div class="mb-6">
 <h4 class="font-semibold text-neutral-foreground mb-3">
@@ -202,6 +214,7 @@
 </div>
 <div class="md:order-1">
 <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">High-volume Event Analytics for Email Marketing</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Scalability, reliability, event modeling</p>
 <p class="text-gray-600 mb-6 leading-relaxed">Built and maintained scalable pipelines processing 100B+ email and user events, supporting both near real-time and batch analytics. Powered data products and reporting used across the business.</p>
 <div class="mb-6">
 <h4 class="font-semibold text-neutral-foreground mb-3">
@@ -234,6 +247,7 @@
 </div>
 <div>
 <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Smart Car — Government Traffic Optimization (Netherlands)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Real-time ingestion, data processing, system integration</p>
 <p class="text-gray-600 mb-6 leading-relaxed">Contributed to a government-backed project aimed at reducing traffic congestion on the A58 highway. Built a system to ingest real-time vehicle telemetry via USB, analyze driving data, and deliver driver-facing recommendations on mobile devices.</p>
 <div class="mb-6">
 <h4 class="font-semibold text-neutral-foreground mb-3">
@@ -271,6 +285,7 @@
   </div>
   <div class="md:order-1">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Fleet Logic – Connected Car Platform (Netherlands & Germany)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Architecture design, customer collaboration, distributed delivery</p>
     <p class="text-gray-600 mb-6 leading-relaxed">Multi-national connected-car platform (web + mobile) enabling drivers to control vehicles, pay parking fees, and ingest car data for analysis and recommendations across brands like Audi, Skoda, Volkswagen, and Seat.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -312,6 +327,7 @@
   </div>
   <div class="">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Check The Price – Real-time Price Tag Recognition (Startup)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Product shaping, system design, technical leadership</p>
     <p class="text-gray-600 mb-6 leading-relaxed">A traveler-focused app that detects prices from real-world tags using image processing and converts them to the user’s local currency with up-to-date exchange rates.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -354,6 +370,7 @@
   </div>
   <div class="md:order-1">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Smart Home Control – Cross-platform IoT Control (Belgium)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: System architecture, integrations, mobile delivery</p>
     <p class="text-gray-600 mb-6 leading-relaxed">Cross-platform app for smart houses allowing end users to configure and schedule device settings without installer support, with device control via LAN or Internet.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -395,6 +412,7 @@
   </div>
   <div class="">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Danabus – Smart City Bus Routing (Da Nang Government)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Solution design, team leadership, APIs + mobile delivery</p>
     <p class="text-gray-600 mb-6 leading-relaxed">A government initiative to encourage public bus usage and reduce urban pollution by helping citizens find the shortest, fastest, and most convenient routes.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -436,6 +454,7 @@
   </div>
   <div class="md:order-1">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Amoha – On-demand Interpretation Platform (Vietnam)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Requirements discovery, solution architecture, technical leadership</p>
     <p class="text-gray-600 mb-6 leading-relaxed">A marketplace-style platform connecting users with interpreters for real-time communication via mobile devices, including an admin CMS for operations.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -478,6 +497,7 @@
   </div>
   <div class="">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Carpooling – Ride Sharing Platform with Payments (Vietnam)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Project delivery, payments integration, engineering coaching</p>
     <p class="text-gray-600 mb-6 leading-relaxed">A web platform and admin CMS enabling ride-sharing between users, including booking management and fee handling.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -518,6 +538,7 @@
   </div>
   <div class="md:order-1">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Bird Control – Airport Safety Operations (Netherlands)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Product delivery, operational reliability, stakeholder alignment</p>
     <p class="text-gray-600 mb-6 leading-relaxed">A mobile + web system for airport admins and bird controllers to report tasks in real time, assign work, and track performance to reduce bird strike risk.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -558,6 +579,7 @@
   </div>
   <div class="">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">React Robot – Embedded Android App for Educational Robots (US)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Embedded development, Bluetooth/BLE, performance constraints</p>
     <p class="text-gray-600 mb-6 leading-relaxed">Embedded Android application inside children’s robots, communicating via Bluetooth and reacting to fiducial code cards for interactive behavior.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -598,6 +620,7 @@
   </div>
   <div class="md:order-1">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Universal Code – Device Error Logging & Analytics (Netherlands)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Web delivery, analytics dashboards, maintainable system design</p>
     <p class="text-gray-600 mb-6 leading-relaxed">A web system to collect and visualize microscope device errors worldwide, helping the manufacturer monitor issues and improve product reliability.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -637,6 +660,7 @@
   </div>
   <div class="">
     <h3 class="font-headline font-semibold text-3xl mb-4 text-neutral-foreground">Microscope Availability Reporter – Desktop Analytics (Netherlands)</h3>
+<p class="text-sm text-gray-500 mb-4">Role: Desktop analytics app, Scrum facilitation, data visualization</p>
     <p class="text-gray-600 mb-6 leading-relaxed">Windows application to import years of microscope data and generate charts to analyze device availability and operational performance.</p>
     <div class="mb-6">
       <h4 class="font-semibold text-neutral-foreground mb-3">Key Contributions & Impact:</h4>
@@ -682,7 +706,74 @@
       Comprehensive expertise across modern data platforms and software systems — from ingestion and processing to analytics, reliability, and delivery.
     </p>
     <div class="space-y-6">
-      <details class="bg-neutral rounded overflow-hidden border border-gray-200" open="">
+        <details class="bg-neutral rounded overflow-hidden border border-gray-200" open="">
+            <summary class="cursor-pointer p-6 font-headline font-semibold text-xl text-neutral-foreground hover:bg-gray-50 transition-colors">
+              Data Technologies
+            </summary>
+            <div class="p-6 pt-0 space-y-6">
+              <div>
+            <div class="flex justify-between mb-2">
+              <span class="text-neutral-foreground font-medium">Dagster</span>
+              <span class="text-gray-600">90%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+              <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 90%"></div>
+            </div>
+            <p class="text-gray-500 mt-2">Workflow orchestration and scheduling</p>
+          </div>
+              <div>
+            <div class="flex justify-between mb-2">
+              <span class="text-neutral-foreground font-medium">Apache Airflow</span>
+              <span class="text-gray-600">90%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+              <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 90%"></div>
+            </div>
+            <p class="text-gray-500 mt-2">Workflow orchestration and scheduling</p>
+          </div>
+              <div>
+            <div class="flex justify-between mb-2">
+              <span class="text-neutral-foreground font-medium">Apache Spark</span>
+              <span class="text-gray-600">80%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+              <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 80%"></div>
+            </div>
+            <p class="text-gray-500 mt-2">Big data processing and analytics</p>
+          </div>
+              <div>
+            <div class="flex justify-between mb-2">
+              <span class="text-neutral-foreground font-medium">dbt</span>
+              <span class="text-gray-600">85%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+              <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 85%"></div>
+            </div>
+            <p class="text-gray-500 mt-2">Analytics engineering, metrics, and semantic layer</p>
+          </div>
+              <div>
+            <div class="flex justify-between mb-2">
+              <span class="text-neutral-foreground font-medium">Athena</span>
+              <span class="text-gray-600">80%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+              <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 80%"></div>
+            </div>
+            <p class="text-gray-500 mt-2">Serverless SQL queries on data lake storage</p>
+          </div>
+          <div>
+            <div class="flex justify-between mb-2">
+              <span class="text-neutral-foreground font-medium">AWS Glue</span>
+              <span class="text-gray-600">75%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+              <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 75%"></div>
+            </div>
+            <p class="text-gray-500 mt-2">Managed ETL jobs and data processing</p>
+          </div>
+            </div>
+          </details>
+      <details class="bg-neutral rounded overflow-hidden border border-gray-200" >
   <summary class="cursor-pointer p-6 font-headline font-semibold text-xl text-neutral-foreground hover:bg-gray-50 transition-colors">
     Programming Languages
   </summary>
@@ -750,73 +841,7 @@
   <p class="text-gray-500 mt-2">System administration and automation scripts</p>
 </div>
 </details>
-      <details class="bg-neutral rounded overflow-hidden border border-gray-200">
-  <summary class="cursor-pointer p-6 font-headline font-semibold text-xl text-neutral-foreground hover:bg-gray-50 transition-colors">
-    Data Technologies
-  </summary>
-  <div class="p-6 pt-0 space-y-6">
-    <div>
-  <div class="flex justify-between mb-2">
-    <span class="text-neutral-foreground font-medium">Dagster</span>
-    <span class="text-gray-600">90%</span>
-  </div>
-  <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
-    <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 90%"></div>
-  </div>
-  <p class="text-gray-500 mt-2">Workflow orchestration and scheduling</p>
-</div>
-    <div>
-  <div class="flex justify-between mb-2">
-    <span class="text-neutral-foreground font-medium">Apache Airflow</span>
-    <span class="text-gray-600">90%</span>
-  </div>
-  <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
-    <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 90%"></div>
-  </div>
-  <p class="text-gray-500 mt-2">Workflow orchestration and scheduling</p>
-</div>
-    <div>
-  <div class="flex justify-between mb-2">
-    <span class="text-neutral-foreground font-medium">Apache Spark</span>
-    <span class="text-gray-600">80%</span>
-  </div>
-  <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
-    <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 80%"></div>
-  </div>
-  <p class="text-gray-500 mt-2">Big data processing and analytics</p>
-</div>
-    <div>
-  <div class="flex justify-between mb-2">
-    <span class="text-neutral-foreground font-medium">dbt</span>
-    <span class="text-gray-600">85%</span>
-  </div>
-  <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
-    <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 85%"></div>
-  </div>
-  <p class="text-gray-500 mt-2">Analytics engineering, metrics, and semantic layer</p>
-</div>
-    <div>
-  <div class="flex justify-between mb-2">
-    <span class="text-neutral-foreground font-medium">Athena</span>
-    <span class="text-gray-600">80%</span>
-  </div>
-  <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
-    <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 80%"></div>
-  </div>
-  <p class="text-gray-500 mt-2">Serverless SQL queries on data lake storage</p>
-</div>
-<div>
-  <div class="flex justify-between mb-2">
-    <span class="text-neutral-foreground font-medium">AWS Glue</span>
-    <span class="text-gray-600">75%</span>
-  </div>
-  <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
-    <div class="bg-primary h-full rounded-full transition-all duration-1000 ease-in-out" style="width: 75%"></div>
-  </div>
-  <p class="text-gray-500 mt-2">Managed ETL jobs and data processing</p>
-</div>
-  </div>
-</details>
+   
       <details class="bg-neutral rounded overflow-hidden border border-gray-200">
   <summary class="cursor-pointer p-6 font-headline font-semibold text-xl text-neutral-foreground hover:bg-gray-50 transition-colors">
     Databases
@@ -1003,7 +1028,7 @@
       
 
       <div class="bg-gray-50 rounded p-2 flex items-center gap-4">
-        <span class="text-xl">🛡️</span>
+        <img src="./images/xamarin.png" style="width: 50px;" alt="Microsoft Certified Xamarin Developer" class="w-10 h-10" />
         <span class="font-medium text-neutral-foreground">
           Microsoft Certified Xamarin Developer	
         </span>
